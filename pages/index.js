@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import './page.modulemcss'
+import './page.module.css'
 const AnimalImages = () => {
   const [searchKeyword, setSearchKeyword] = useState('')
   const [animalImages, setAnimalImages] = useState([])
