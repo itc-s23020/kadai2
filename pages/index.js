@@ -12,7 +12,7 @@ const AnimalImages = () => {
         try {
           const response = await axios.get('https://pixabay.com/api/', {
             params: {
-              key: process.env.API_KEY,
+              key: process.env.NEXT_PUBLIC_PIXABAY_API_KEY,
               q: searchKeyword,
               image_type: 'photo',
               per_page: 10
